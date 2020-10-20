@@ -4,6 +4,11 @@ cliでDocBaseの記事を検索
 
 ## Install
 ### Mac
+pecoのインストール
+```sh
+brew install peco
+```
+docbase-cliのインストール
 ```sh
 version=v0.1.0
 https://github.com/yasuyuki0321/docbase/releases/download/$version/docbase-cli_darwin_x86_64.tar.gz
