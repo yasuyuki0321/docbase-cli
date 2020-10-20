@@ -33,7 +33,7 @@ docbase init
   - ドメイン
   ※ DocBaseにアクセスする際のURLのxxxの文字列(xxx.docbase.io)
 
-## Description
+## Note
 - docbase open: docbaseのトップページの表示
 - docbase init: ツールを使用するために必要な情報の設定
 - docbase list: 自分が公開しているメモの一覧を表示
