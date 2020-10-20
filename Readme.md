@@ -4,18 +4,36 @@ cliでDocBaseの記事を検索
 
 ## Install
 ### Mac
-pecoのインストール
+1. pecoのインストール
+※ pecoインストールされている場合は実施不要
 ```sh
 brew install peco
 ```
-docbase-cliのインストール
+2. docbase-cliのインストール
 ```sh
-version=v0.1.0
-https://github.com/yasuyuki0321/docbase/releases/download/$version/docbase-cli_darwin_x86_64.tar.gz
+version=v0.1.3
+wget https://github.com/yasuyuki0321/docbase-cli/releases/download/$version/docbase-cli_darwin_x86_64.tar.gz
 ```
-※Windowsでの動作確認は未実施
+3. ファイルの解凍
+```sh
+tar zxvf docbase-cli_darwin_x86_64.tar.gz
+```
+4. ファイルをpathの通っているディレクトリに配置する
 
 ## Usage
+- ↓に従い、DocBaseへのアクセストークンを作成する
+[DocBase APIドキュメント \- DocBase](https://help.docbase.io/posts/45703)
+- docbase-cliにアクセストークン等の情報を登録する
+```sh
+docbase init
+```
+登録する情報
+  - アクセストークン
+  - ユーザID
+  - ドメイン
+  ※ DocBaseにアクセスする際のURLのxxxの文字列(xxx.docbase.io)
+
+## Description
 - docbase open: docbaseのトップページの表示
 - docbase init: ツールを使用するために必要な情報の設定
 - docbase list: 自分が公開しているメモの一覧を表示
