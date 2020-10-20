@@ -9,7 +9,7 @@ var openCmd = &cobra.Command{
 	Short: "Open DocBase top page",
 
 	Run: func(cmd *cobra.Command, args []string) {
-		url := "https://iret.docbase.io/"
+		url := "https://" + domain + ".docbase.io/"
 		OpenUrl(url)
 	},
 }
