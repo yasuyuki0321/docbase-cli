@@ -21,7 +21,7 @@ tar zxvf docbase-cli_darwin_x86_64.tar.gz
 4. ファイルをpathの通っているディレクトリに配置する
 
 ## Usage
-- ↓に従い、DocBaseへのアクセストークンを作成する
+- ↓に従い、DocBaseへのアクセストークンを作成する  
 [DocBase APIドキュメント \- DocBase](https://help.docbase.io/posts/45703)
 - docbase-cliにアクセストークン等の情報を登録する
 ```sh
