@@ -11,7 +11,7 @@ brew install peco
 ```
 2. docbase-cliのインストール
 ```sh
-version=v0.1.3
+version=v0.1.4
 wget https://github.com/yasuyuki0321/docbase-cli/releases/download/$version/docbase-cli_darwin_x86_64.tar.gz
 ```
 3. ファイルの解凍
